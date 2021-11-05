@@ -1,4 +1,4 @@
-public class Dog extends Animals{
+public final class Dog extends Animals{
     private static int count=0;
     public static int getCount() {
         return count;
