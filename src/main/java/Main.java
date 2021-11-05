@@ -16,6 +16,6 @@ public class Main {
             animal.run(300);
             animal.swim(20);
         }
-        System.out.printf("Всего участников %d из них:%n котов-%d%n собак-%d%n",animals.length,Cat.getCount(),Dog.getCount());
+        System.out.printf("Всего участников %d из них:%n котов-%d%n собак-%d%n",Animals.getCount(),Cat.getCount(),Dog.getCount());
     }
 }

@@ -2,11 +2,17 @@ public class Animals {
     private final int swimmingRestrictions;
     private final int runningRestrictions;
     private final String name;
+    private static int count = 0;
+
+    public static int getCount() {
+        return count;
+    }
 
     public Animals(String name, int swimmingRestrictions, int runningRestrictions) {
         this.swimmingRestrictions = swimmingRestrictions;
         this.runningRestrictions = runningRestrictions;
         this.name = name;
+        count++;
     }
 
     public void run(int distance) {
